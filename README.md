@@ -5,10 +5,5 @@
      /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
  ----------------------------------------------------------------- 
 
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
+AWS를 사용하여 학교 동아리에서 Django를 배우고 있습니다!!
+배운 내용들을 올려두고 있어요!! 😁
