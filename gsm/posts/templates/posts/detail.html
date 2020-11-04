@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GSM Board</title>
+    <link rel="stylesheet" href="{% static 'posts/style.css' %}" type="text/css" />
+</head>
+<body>
+    <h1>Post Detail</h1>
+    {% if post %}
+        <h2>작성자</h2>
+        <p>{{ post.author }}</p>
+        
+        <h2>본 문</h2>
+        <p>{{ post.body }}</p>
+        
+        <h2>게 시 일</h2>
+        <p>{{ post.created_at }}</p>
+    {% else %}
+        <p>No posts</p>
+    {% endif %}
+    
+    <a href="/posts">목 록</a>
+</body>
+</html>
